@@ -263,7 +263,7 @@ pub const TextElementConfig = extern struct {
     /// Controls how text "wraps", that is how it is broken into multiple lines when there is insufficient horizontal space.
     wrap_mode: TextElementConfigWrapMode = .words,
     /// Controls how wrapped lines of text are horizontally aligned within the outer text bounding box.
-    alignement: TextAlignment = .left,
+    alignment: TextAlignment = .left,
 };
 
 pub const FloatingAttachPointType = enum(EnumBackingType) {
